@@ -1,0 +1,9 @@
+disable:
+- servicelb
+- traefik
+- local-storage
+- metrics-server
+tls-san:
+- k3s-master01
+flannel-backend: none
+disable-network-policy: true
